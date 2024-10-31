@@ -1,0 +1,120 @@
+# Copyright (C) 2024 ParityDiscounts
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ParityPress - Parity Pricing with Discount Rules 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/parity-press\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-21T05:17:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: parity-press\n"
+
+#. Plugin Name of the plugin
+msgid "ParityPress - Parity Pricing with Discount Rules"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/paritypress"
+msgstr ""
+
+#. Description of the plugin
+msgid "ParityPress boosts marketing via Geo-based discounts, enhancing engagement & conversion."
+msgstr ""
+
+#. Author of the plugin
+msgid "ParityDiscounts"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/paritydiscounts"
+msgstr ""
+
+#: app/Hooks/Activator.php:20
+msgid "Default Campaign"
+msgstr ""
+
+#: app/Hooks/Activator.php:21
+msgid "This is the default campaign."
+msgstr ""
+
+#: app/Http/Controllers/CampaignController.php:28
+msgid "You are not allowed to access this endpoint"
+msgstr ""
+
+#: app/Http/Controllers/CampaignController.php:58
+msgid "Campaign created successfully"
+msgstr ""
+
+#: app/Http/Controllers/CampaignController.php:67
+msgid "Campaign not found"
+msgstr ""
+
+#: app/Http/Controllers/CampaignController.php:92
+msgid "Campaign updated successfully"
+msgstr ""
+
+#: app/Http/Controllers/CampaignController.php:101
+msgid "Campaign deleted successfully"
+msgstr ""
+
+#: app/Http/Requests/CampaignFormRequest.php:40
+msgid "The campaign title is required."
+msgstr ""
+
+#: app/Http/Requests/CampaignFormRequest.php:41
+msgid "The end date must be a valid date after the start date."
+msgstr ""
+
+#: app/Providers/AdminServiceProvider.php:47
+#: app/Providers/AdminServiceProvider.php:48
+msgid "ParityPress"
+msgstr ""
+
+#: app/Providers/AppServiceProvider.php:43
+msgid "Campaigns"
+msgstr ""
+
+#: app/Providers/AppServiceProvider.php:44
+msgid "Campaign"
+msgstr ""
+
+#. Translators: %s is the field name.
+#: framework/Validation/Validator.php:139
+msgid "%s is required."
+msgstr ""
+
+#. Translators: %s is the field name.
+#: framework/Validation/Validator.php:142
+msgid "%s must be a valid date in the format YYYY-MM-DD."
+msgstr ""
+
+#. Translators: %s is the field name.
+#: framework/Validation/Validator.php:145
+msgid "%s must be a valid hex color code."
+msgstr ""
+
+#. Translators: %s is the field name.
+#: framework/Validation/Validator.php:148
+msgid "%s must be an integer."
+msgstr ""
+
+#. Translators: %1$s is the field name, and %2$s is the minimum value.
+#: framework/Validation/Validator.php:151
+msgid "%1$s must be at least %2$s."
+msgstr ""
+
+#. Translators: %s is the field name.
+#: framework/Validation/Validator.php:154
+msgid "%s must be an array."
+msgstr ""
+
+#. Translators: %s is the field name.
+#: framework/Validation/Validator.php:157
+#: framework/Validation/Validator.php:161
+msgid "%s is invalid."
+msgstr ""
